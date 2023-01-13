@@ -14,7 +14,7 @@
   margin-bottom: 20px;
 }
 .content {
-  width: 100%;
+  width: 90%;
   height: 80%;
   display: grid;
   margin-top: 50px;
@@ -85,16 +85,17 @@ gap: 10px;
 }
 
 .two1{
- height: 20%;
- padding: 50px;
+ /* height: 20%; */
+ 
 }
 .two1 img{
     width: 50px;
     background-color: hsl(15, 100%, 70%);
 }
 .two2{
-   height: 80%; 
+   /* height: 80%;  */
 border-radius: 10px;
+padding: 30px;
 }
 .three{
 grid-area: three;
