@@ -124,7 +124,7 @@
 }
 .five {
   grid-area: five;
-  background-color: hsl(235, 46%, 20%);
+  background-color: hsl(145, 58%, 55%);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -134,7 +134,7 @@
 }
 .six {
   grid-area: six;
-  background-color: hsl(235, 46%, 20%);
+  background-color: hsl(264, 64%, 52%);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -144,7 +144,7 @@
 }
 .seven {
   grid-area: seven;
-  background-color: hsl(235, 46%, 20%);
+  background-color: hsl(43, 84%, 65%);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
