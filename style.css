@@ -20,7 +20,7 @@
   margin-top: 50px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 10px;
+  gap: 12px;
   grid-template-areas:
     "one two three four"
     "one five six seven";
