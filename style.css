@@ -42,7 +42,7 @@
     border-radius: 5px;
 }
 .one1{
-    /* grid-area: one1;  */
+   
     background-color: hsl(246, 80%, 60%);
     padding: 50px;
     margin-left: 10px;
@@ -74,13 +74,21 @@ background-color: hsl(235, 46%, 20%);
 
 .two{
 grid-area: two;
-background-color: hsl(235, 46%, 20%);
+background-color: hsl(348, 100%, 68%);
 border-radius: 5px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 10px;
+}
+
+.two1{
+ 
+}
+.two2{
+    height: 70%;
+
 }
 .three{
 grid-area: three;
