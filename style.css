@@ -75,6 +75,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url(./images/icon-work.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: top;
   /* gap: 10px; */
 }
 
@@ -90,6 +94,7 @@
   border-radius: 10px;
   width: 73%;
   padding: 30px;
+
 }
 .three {
   grid-area: three;
@@ -99,6 +104,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url(./images/icon-play.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: top;
   /* gap: 10px; */
 }
 .three1{
@@ -117,6 +126,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url(./images/icon-study.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: top;
   /* gap: 10px; */
 }
 .five {
@@ -128,6 +141,10 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  background-image: url(./images/icon-exercise.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: top;
 }
 .six {
   grid-area: six;
