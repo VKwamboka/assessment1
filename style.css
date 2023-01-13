@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Rubik;
+  /* font-size: 18px; */
+  background-color: hsl(226, 43%, 10%);
+  color: white;
+}
+.container {
+  display: grid;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.content {
+  width: 100%;
+  height: 80%;
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  grid-template-areas:
+    "one two three four"
+    "one five six seven";
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    grid-area: one;
+    background-color: hsl(235, 46%, 20%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    /* grid-template-rows: repeat(2,1fr); */
+    /* grid-template-areas: "one1"
+    "one2"; */
+    border-radius: 5px;
+}
+.one1{
+    /* grid-area: one1;  */
+    background-color: hsl(246, 80%, 60%);
+    padding: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 80%;
+    width: 60%;
+    border-radius: 10px;
+}
+/* .one1 div{
+    background-color: hsl(246, 80%, 60%);
+} */
+.one1 img{
+    border-radius: 50%;
+    width: 100px;
+    border: 2px solid white;
+}
+.one2{
+    /* grid-area: one2;  */
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(235, 46%, 20%);
+    margin: 10px;
+}
+.one2 p{
+background-color: hsl(235, 46%, 20%);
+}
+
+
+
+.two{
+grid-area: two;
+background-color: hsl(235, 46%, 20%);
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.three{
+grid-area: three;
+background-color: hsl(235, 46%, 20%);
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.four{
+grid-area: four;
+background-color: hsl(235, 46%, 20%);
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.five{
+grid-area: five;
+background-color: hsl(235, 46%, 20%);
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.six{
+grid-area: six;
+background-color: hsl(235, 46%, 20%);
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.seven{
+grid-area: seven;
+background-color: hsl(235, 46%, 20%);
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
