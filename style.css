@@ -50,18 +50,15 @@
   width: 60%;
   border-radius: 10px;
 }
-/* .one1 div{
-    background-color: hsl(246, 80%, 60%);
-} */
+
 .one1 img {
   border-radius: 50%;
-  width: 100px;
+  width: 50%;
   border: 2px solid white;
 }
 .one2 {
-  /* grid-area: one2;  */
   display: flex;
-  gap: 10px;
+  gap: 14px;
   flex-direction: column;
   background-color: hsl(235, 46%, 20%);
   margin: 10px;
@@ -81,11 +78,8 @@
   /* gap: 10px; */
 }
 
-.two1 {
-  /* height: 20%; */
-}
 .two1 img {
-  width: 40px;
+  width: 40%;
   background-color: hsl(15, 100%, 70%);
 }
 .two2 {
@@ -106,6 +100,9 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+.three1{
+    height: 100%;
 }
 .three1 img {
   background-color: hsl(195, 74%, 62%);
@@ -152,3 +149,4 @@
   align-items: center;
   gap: 10px;
 }
+p{padding: 3px;}
