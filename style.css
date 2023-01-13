@@ -24,131 +24,130 @@
   grid-template-areas:
     "one two three four"
     "one five six seven";
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-.one{
-    grid-area: one;
-    background-color: hsl(235, 46%, 20%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    
-    /* grid-template-rows: repeat(2,1fr); */
-    /* grid-template-areas: "one1"
+.one {
+  grid-area: one;
+  background-color: hsl(235, 46%, 20%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  /* grid-template-rows: repeat(2,1fr); */
+  /* grid-template-areas: "one1"
     "one2"; */
-    border-radius: 5px;
+  border-radius: 5px;
 }
-.one1{
-   
-    background-color: hsl(246, 80%, 60%);
-    padding: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
-    height: 80%;
-    width: 60%;
-    border-radius: 10px;
+.one1 {
+  background-color: hsl(246, 80%, 60%);
+  padding: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 80%;
+  width: 60%;
+  border-radius: 10px;
 }
 /* .one1 div{
     background-color: hsl(246, 80%, 60%);
 } */
-.one1 img{
-    border-radius: 50%;
-    width: 100px;
-    border: 2px solid white;
+.one1 img {
+  border-radius: 50%;
+  width: 100px;
+  border: 2px solid white;
 }
-.one2{
-    /* grid-area: one2;  */
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-    background-color: hsl(235, 46%, 20%);
-    margin: 10px;
+.one2 {
+  /* grid-area: one2;  */
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  background-color: hsl(235, 46%, 20%);
+  margin: 10px;
 }
-.one2 p{
-background-color: hsl(235, 46%, 20%);
-}
-
-
-
-.two{
-grid-area: two;
-background-color: hsl(15, 100%, 70%);
-border-radius: 10px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-/* gap: 10px; */
-
+.one2 p {
+  background-color: hsl(235, 46%, 20%);
 }
 
-.two1{
- /* height: 20%; */
- 
+.two {
+  grid-area: two;
+  background-color: hsl(15, 100%, 70%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 10px; */
 }
-.two1 img{
-    width: 50px;
-    background-color: hsl(15, 100%, 70%);
+
+.two1 {
+  /* height: 20%; */
 }
-.two2{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-   height: 100%; 
-border-radius: 10px;
-width: 72%;
-padding: 30px;
+.two1 img {
+  width: 40px;
+  background-color: hsl(15, 100%, 70%);
 }
-.three{
-grid-area: three;
-background-color: hsl(235, 46%, 20%);
-border-radius: 5px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
+.two2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  border-radius: 10px;
+  width: 72%;
+  padding: 30px;
 }
-.four{
-grid-area: four;
-background-color: hsl(235, 46%, 20%);
-border-radius: 5px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
+.three {
+  grid-area: three;
+  background-color: hsl(195, 74%, 62%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
-.five{
-grid-area: five;
-background-color: hsl(235, 46%, 20%);
-border-radius: 5px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
+.three img {
+  background-color: hsl(195, 74%, 62%);
+  width: 40%;
 }
-.six{
-grid-area: six;
-background-color: hsl(235, 46%, 20%);
-border-radius: 5px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
+.four {
+  grid-area: four;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
-.seven{
-grid-area: seven;
-background-color: hsl(235, 46%, 20%);
-border-radius: 5px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
+.five {
+  grid-area: five;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.six {
+  grid-area: six;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.seven {
+  grid-area: seven;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
