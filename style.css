@@ -99,7 +99,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  /* gap: 10px; */
 }
 .three1{
     height: 100%;
@@ -117,7 +117,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  /* gap: 10px; */
 }
 .five {
   grid-area: five;
@@ -137,7 +137,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  /* gap: 10px; */
 }
 .seven {
   grid-area: seven;
